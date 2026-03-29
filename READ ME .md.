@@ -1,0 +1,20 @@
+# BharatCarbon
+
+National Supply Engine for India's 2026 Compliance Carbon Market.
+
+## Quick Start
+
+1. Clone the repo
+2. Run `npm install` in the `bharatcarbon-prototype` folder
+3. Run `npm start` to see the three screens:
+   - Sovereign Dashboard (DGF view)
+   - Developer Wallet
+   - Market Terminal (NEST-powered)
+
+## Structure
+- `layer1_iot/` → Sensor telemetry
+- `layer2_ingestion/` → Data normalization
+- `layer3_mrv/` → MRV engine (FastAPI)
+- `layer5_trading/` → React UI with Sovereign, Wallet, and Terminal screens
+
+Built for BEE CCTS compliance and Viksit Bharat 2047.
